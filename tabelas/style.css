@@ -1,0 +1,19 @@
+table{ 
+    border: solid 1px black;
+    padding: 5px;
+  }
+  td, th {
+    border: dotted 1px black;
+  }
+
+  th{
+      background-color: yellow;
+  }
+
+.diaSemana{
+    text-align: center;
+}
+
+.graus {
+    text-align: end;
+}
