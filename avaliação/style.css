@@ -1,0 +1,40 @@
+header{
+    background-image: url(imgs/bach-header-1.png);
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+}
+
+#icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#nome_site{
+    color: white;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit; 
+}
+
+
+.ul_menu{
+    list-style-image: url(imgs/seta-menu.png);
+}
+
