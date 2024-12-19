@@ -22,8 +22,9 @@ header {
 
 #nome_site {
     color: white;
-    font-family: charm-regular;
+    font-family:'Charm-Regular';
     margin-right: 10px;
+    margin-left: 6px;
 }
 
 .header-image img {
@@ -34,7 +35,6 @@ header {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -57,7 +57,7 @@ main{
 .menu {
     background-image: url(imgs/barra-lateral.png);
     display: flex;
-    height: 100vh;
+    height: 200vh;
     width: 200px;
     flex-direction: column;
 }
@@ -69,6 +69,9 @@ main{
     padding: 0;
     margin: 0;
     width: 100%;
+    font-family: sans-serif;
+    font-size:15px;
+
 }
 
 
@@ -116,4 +119,151 @@ main{
 h2{
   border-bottom: #0B62BA solid 2px;
   margin-top: 10px;
+  width: 85%;
+  margin-bottom: -10px;
+  font-family: 'Alegreya';
+ 
+}
+
+.home-img{
+    width: 400px;
+    display: flex;
+    align-self: center;
+    border: 1px solid black;
+    margin-right: 13%;
+    margin-top: 10px;
+}
+
+.ux-img{
+  width: 400px;
+  border: 1px solid black;
+  display: flex;
+  align-self: center;
+  margin-right: 13%;
+  margin-top: 10px;
+}
+
+.ihc-img {
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-right: 13%;
+    margin-top: 10px;
+}
+
+.us-img, .centrado-img{
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-self: center;
+    margin-right: 13%;
+    margin-top: 10px;
+}
+
+.interacao-img{
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-self: center;
+    margin-right: 13%;
+    margin-top: 10px;
+}
+
+
+.visual-img{
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-right: 13%;
+    margin-top: 10px;
+}
+
+.arq-info-img{
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-self: center;
+    margin-right: 13%;
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: 'Charm-Regular';
+    src: url(fontes/Charm/Charm-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url(fontes/Alegreya_Sans_SC/AlegreyaSansSC-Bold.ttf) format(truetype);
+}
+
+
+.conteudo_principal li{
+   font-family: Arial, Helvetica, sans-serif;
+   width: 85%;
+   font-size: medium;
+   margin-bottom: 5px;
+}
+
+.zoom {
+    transition: transform 0.3s ease; 
+}
+
+.zoom:hover {
+    transform: scale(1.05); 
+}
+
+.table-centrado{
+    border:solid 1px #0B62BA;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 40px;
+    
+}
+
+.th-centrado{
+    border-right: #0B62BA solid 1px;
+    border-bottom: #0B62BA solid 1px;
+    background-color: #D3E5FD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 40px;
+}
+
+.td-centrado{
+    border-bottom: #0B62BA solid 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.table-info{
+    border:solid 1px #0B62BA;
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 40px;
+    
+}
+
+.th-info{
+    border-right: #0B62BA solid 1px;
+    border-bottom: #0B62BA solid 1px;
+    background-color: #D3E5FD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 60px;
+    width: 90px;
+}
+
+.td-info{
+    border-bottom: #0B62BA solid 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
 }
