@@ -126,7 +126,7 @@ h2{
 }
 
 .home-img{
-    width: 400px;
+    width: 40%;
     display: flex;
     align-self: center;
     border: 1px solid black;
@@ -135,7 +135,7 @@ h2{
 }
 
 .ux-img{
-  width: 400px;
+  width: 40%;
   border: 1px solid black;
   display: flex;
   align-self: center;
@@ -144,7 +144,7 @@ h2{
 }
 
 .ihc-img {
-    width: 500px;
+    width: 50%;
     border: 1px solid black;
     display: flex;
     align-self: center;
@@ -154,7 +154,7 @@ h2{
 }
 
 .us-img, .centrado-img{
-    width: 500px;
+    width: 50%;
     border: 1px solid black;
     display: flex;
     align-self: center;
@@ -163,7 +163,7 @@ h2{
 }
 
 .interacao-img{
-    width: 400px;
+    width: 40%;
     border: 1px solid black;
     display: flex;
     align-self: center;
@@ -173,7 +173,7 @@ h2{
 
 
 .visual-img{
-    width: 600px;
+    width: 60%;
     border: 1px solid black;
     display: flex;
     align-self: center;
@@ -183,7 +183,7 @@ h2{
 }
 
 .arq-info-img{
-    width: 400px;
+    width: 40%;
     border: 1px solid black;
     display: flex;
     align-self: center;
